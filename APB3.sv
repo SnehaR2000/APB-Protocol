@@ -146,7 +146,7 @@ endmodule
    
  
   reg [31:0]memoryeven[1024:0]; //dual array this is for even address storage
-  reg [31:0]memoryodd[1024:0]; //dual array this is for odd aggress storage
+   reg [31:0]memoryodd[1024:0]; //dual array this is for odd address storage
   logic wait_cycle=3; //wait cycle is to wait during access phase of master 
 
 
